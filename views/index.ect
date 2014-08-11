@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>socket.io sample.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h2>Talk with Voiceroid.</h2>
+        <%= @message %><br />
+        <form method="POST" action="/talk">
+            <input type="text" name="message" id="message" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
